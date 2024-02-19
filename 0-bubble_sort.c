@@ -1,7 +1,10 @@
 #include "sort.h"
 
-
 /**
+ * bubble_sort - bubble sort function
+ * @array: array parameter
+ * @size: second variable
+ * Return: void
  */
 
 void bubble_sort(int *array, size_t size)
@@ -12,6 +15,7 @@ void bubble_sort(int *array, size_t size)
 	while (i < k)
 	{
 		size_t j = 0;
+
 		flag = 0;
 
 		while (j < k - i)
