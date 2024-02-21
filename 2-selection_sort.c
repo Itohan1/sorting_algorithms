@@ -1,6 +1,9 @@
 #include "sort.h"
 
 /**
+ * selection_sort - sort algorithm
+ * @array: integer pointer
+ * @size: variable
  */
 
 void selection_sort(int *array, size_t size)
